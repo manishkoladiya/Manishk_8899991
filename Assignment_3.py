@@ -43,8 +43,8 @@ messaging_icon.click()
 time.sleep(3)
 
 # Opening the 'My Network' panel
-messaging_icon = driver.find_element(By.LINK_TEXT, "My Network")
-messaging_icon.click()
+MyNetwork_icon = driver.find_element(By.LINK_TEXT, "My Network")
+MyNetwork_icon.click()
 time.sleep(3)
 
 # Closing the webdriver
