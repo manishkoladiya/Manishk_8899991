@@ -34,7 +34,6 @@ time.sleep(5)
 
 # Navigating to the 'Notifications' page
 Notifications_tab = driver.find_element(By.LINK_TEXT, "Notifications")
-
 Notifications_tab.click()
 time.sleep(8)
 
